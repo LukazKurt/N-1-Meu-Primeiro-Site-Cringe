@@ -1,0 +1,46 @@
+/*Globais*/
+
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul{
+    font-size: larger;
+}
+
+/*Principal*/
+
+.container-fluid{
+    margin-top: 25px;
+    padding: 50px 50px;
+    background-color: orangered;
+    border-radius: 20px;
+}
+
+.btn-cadastro{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+    background-color: #343a40;
+    border-radius: 10px;
+    border-color: #343a40;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+
+/* RODAPÉ*/
+
+footer img{
+    width: 20px;
+    height: 20px;
+    }
+    
+.flex-footer {
+    color: burlywood;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid black;
+}

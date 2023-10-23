@@ -1,0 +1,60 @@
+/*Globais*/
+body{
+    background-color: burlywood;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul{
+    font-size: larger;
+}
+
+/*Principal*/
+
+header h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    font-size: 40px;
+}
+.flex-receitas{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1100px;   
+}
+
+.flex-receitas h2, h3{
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.flex-receitas p{
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.flex-receitas > div{
+    flex: 1 1 400px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 15px;
+}
+.flex-receitas img{
+    width: 200px;
+    height: 200px;
+}
+
+/* RODAPÉ*/
+
+footer img{
+    width: 20px;
+    height: 20px;
+    }
+    
+.flex-footer {
+    color: burlywood;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid black;
+    }
